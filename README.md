@@ -1,4 +1,4 @@
-```rust
+
 <h1 align="left">React & Graphene & Django Boilerplate</h1>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
@@ -74,4 +74,3 @@ If you found this project helpful, please consider giving it a star! This helps 
 
 [The MIT License](LICENSE)
 
-```
