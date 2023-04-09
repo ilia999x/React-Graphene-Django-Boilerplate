@@ -44,7 +44,6 @@ const UpdateTodo = ({ classes, todo }) => {
         <Mutation
           mutation={UPDATE_TODO_MUTATION}
           onCompleted={data => {
-            console.log({ data });
             setSubmitting(false);
             setOpen(false);
             setTitle("");

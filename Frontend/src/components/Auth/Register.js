@@ -47,7 +47,6 @@ const Register = ({ classes, setNewUser }) => {
           mutation={REGISTER_MUTATION}
           variables={{ username, email, password }}
           onCompleted={data => {
-            console.log({ data },'datasss');
             setOpen(true);
           }}
         >

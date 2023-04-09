@@ -50,7 +50,6 @@ const CreateTodo = ({ classes }) => {
       <Mutation
         mutation={CREATE_TODO_MUTATION}
         onCompleted={data => {
-          console.log({ data });
           setSubmitting(false);
           setOpen(false);
           setTitle("");
@@ -60,7 +59,7 @@ const CreateTodo = ({ classes }) => {
         // refetchQueries={() => [{ query: GET_TODOS_QUERY }]}
       >
         {(createTodo, { loading, error }) => {
-          console.log(error,'error')
+         
           if (error) return <Error error={error} />;
 
           return (
