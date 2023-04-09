@@ -19,8 +19,6 @@ If you found this project helpful, please consider giving it a star! This helps 
 
 ## Backend🛠
 
-![](readme-Images/auth-header.png)![auth-header](readme-Images/auth-header.png)
-
 - SQLite configured ✔
 - Confuigured Graphene Schema eassy to Modify ✔
 - Authentication With JWT (Register, Sign In) ✔
@@ -62,13 +60,13 @@ If you found this project helpful, please consider giving it a star! This helps 
 ## Usage of graphene Schema
 
     - registry
-    ![](readme-Images/create-user.png)![auth-header](readme-Images/create-user.png)
+![auth-header](readme-Images/create-user.png)
 
     - get token
-    ![](readme-Images/get_token.png)![get_token](readme-Images/get_token.png)
+![get_token](readme-Images/get_token.png)
 
     - set to header
-    ![](readme-Images/auth-header.png)![auth-header](readme-Images/auth-header.png)
+![auth-header](readme-Images/auth-header.png)
 
 ## License ©
 
